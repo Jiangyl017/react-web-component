@@ -1,17 +1,3 @@
-/*
- * @Author: 姜跃龙
- * @Date: 2022-04-14 19:44:54
- * @LastEditors: 姜跃龙
- * @LastEditTime: 2022-04-14 19:44:54
- * @Description: file content
- */
-/*
- * @Author: 姜跃龙
- * @Date: 2022-04-13 21:19:06
- * @LastEditors: 姜跃龙
- * @LastEditTime: 2022-04-13 22:23:31
- * @Description: file content
- */
 import React, { useState } from 'react';
 import { TreeSelect } from 'antd';
 
