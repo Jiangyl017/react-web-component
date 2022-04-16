@@ -5,10 +5,11 @@ import ReactWebComponent from "./react-web-component";
 import "antd/dist/antd.css";
 import { TreeSelect } from "antd";
 
-ReactWebComponent.create(TreeSelect, "antd-tree");
+const env = process.env.NODE_ENV;
 
-const root = ReactDom.createRoot(document.getElementById("root"));
-
-root.render(
-    <App />
-)
+if (env === "production") {
+  ReactWebComponent.create(TreeSelect, "antd-tree");
+} else {
+  const root = ReactDom.createRoot(document.getElementById("root"));
+  root.render(<App />);
+}
