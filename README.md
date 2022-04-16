@@ -1,2 +1,1 @@
-# Webpack--React-18
-使用Webpack5构建React18
+# 将react组件包装为web-component组件
